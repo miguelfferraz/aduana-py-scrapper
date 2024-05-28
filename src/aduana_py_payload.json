@@ -1,9 +1,9 @@
 {
     "page": "{placeholder_page}",
-    "perPage":1000,
-    "sort":null,
-    "sortField":null,
-    "filters":[
+    "perPage": "{placeholder_perpage}",
+    "sort": null,
+    "sortField": null,
+    "filters": [
         {
             "field": "anio",
             "operator": "eq",
@@ -15,435 +15,435 @@
             "value": "{placeholder_posicion}"
         }
     ],
-    "entity":[
-       {
-          "disableSorting":false,
-          "display":"DESPACHO CIFRADO",
-          "fieldName":"despachoCifrado",
-          "filterType":"tag",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"OPERACION",
-          "fieldName":"operacion",
-          "filterType":"multi-select",
-          "other":{
-             "optionsObject":[
-                {
-                   "text":"IMPORTACION",
-                   "value":"IMPORTACION"
-                },
-                {
-                   "text":"EXPORTACION",
-                   "value":"EXPORTACION"
-                }
-             ],
-             "selectionMode":"multiple",
-             "source":"internal"
-          },
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"DESTINACION",
-          "fieldName":"codRegimen",
-          "filterType":"tag",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"REGIMEN",
-          "fieldName":"regimen",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"OFICIALIZACION",
-          "fieldName":"oficializacion",
-          "show":true,
-          "type":"date"
-       },
-       {
-          "disableSorting":false,
-          "display":"CANCELACION",
-          "fieldName":"cancelacion",
-          "show":true,
-          "type":"date"
-       },
-       {
-          "disableSorting":false,
-          "display":"AÑO",
-          "fieldName":"anio",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"MES",
-          "fieldName":"mes",
-          "filterType":"multi-select",
-          "other":{
-             "optionsObject":[
-                {
-                   "text":"ENERO",
-                   "value":"ENERO"
-                },
-                {
-                   "text":"FEBRERO",
-                   "value":"FEBRERO"
-                },
-                {
-                   "text":"MARZO",
-                   "value":"MARZO"
-                },
-                {
-                   "text":"ABRIL",
-                   "value":"ABRIL"
-                },
-                {
-                   "text":"MAYO",
-                   "value":"MAYO"
-                },
-                {
-                   "text":"JUNIO",
-                   "value":"JUNIO"
-                },
-                {
-                   "text":"JULIO",
-                   "value":"JULIO"
-                },
-                {
-                   "text":"AGOSTO",
-                   "value":"AGOSTO"
-                },
-                {
-                   "text":"SEPTIEMBRE",
-                   "value":"SEPTIEMBRE"
-                },
-                {
-                   "text":"OCTUBRE",
-                   "value":"OCTUBRE"
-                },
-                {
-                   "text":"NOVIEMBRE",
-                   "value":"NOVIEMBRE"
-                },
-                {
-                   "text":"DICIEMBRE",
-                   "value":"DICIEMBRE"
-                }
-             ],
-             "selectionMode":"multiple",
-             "source":"internal"
-          },
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"ADUANA",
-          "fieldName":"aduanaDespacho",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"ESTADO",
-          "fieldName":"estadoDespacho",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"RUC DESPACHANTE",
-          "fieldName":"rucDespachante",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"DESPACHANTE",
-          "fieldName":"despachante",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"DATOS DESPACHANTE",
-          "fieldName":"datosDespachante",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"EMAIL DESPACHANTE",
-          "fieldName":"emailDespachante",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"RUC IMPORTADOR",
-          "fieldName":"rucImportador",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"IMPORTADOR",
-          "fieldName":"importador",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"EMAIL IMPORTADOR",
-          "fieldName":"emailImportador",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"COTIZACION",
-          "fieldName":"cotizacion",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"MEDIO TRANSPORTE",
-          "fieldName":"medioTransporte",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"CANAL",
-          "fieldName":"canal",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"ITEM",
-          "fieldName":"itemExterno",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"PAIS ORIGEN",
-          "fieldName":"paisOrigenAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"PAIS PROCEDENCIA / DESTINO",
-          "fieldName":"paisProcDestinoAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"USO",
-          "fieldName":"usoAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"UNIDAD MEDIDA ESTADISTICA",
-          "fieldName":"unidadEstadisticaAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"CANTIDAD ESTADISTICA",
-          "fieldName":"cantidadEstadisticaAjustado",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"PESO NETO",
-          "fieldName":"pesoNeto",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"PESO BRUTO",
-          "fieldName":"pesoBruto",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"FOB DOLAR",
-          "fieldName":"fobDolarAjustado",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"FLETE DOLAR",
-          "fieldName":"fleteDolarAjustado",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"SEGURO DOLAR",
-          "fieldName":"seguroDolarAjustado",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"IMPONIBLE GUARANIES",
-          "fieldName":"imponibleGsAjustado",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"AJUSTE A INCLUIR",
-          "fieldName":"ajusteIncluirAjustado",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"AJUSTE A DEDUCIR",
-          "fieldName":"ajusteDeducirAjustado",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"RUBRO",
-          "fieldName":"desrubroAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"CAPITULO",
-          "fieldName":"descapituloAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"DESCRIPCION PARTIDA",
-          "fieldName":"despartidaAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"POSICION",
-          "fieldName":"posicionAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"DESCRIPCION POSICION",
-          "fieldName":"descripcionAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"MERCADERIA",
-          "fieldName":"mercaderia",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"ACUERDO",
-          "fieldName":"acuerdoAjustado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"DERECHO ADUANERO",
-          "fieldName":"derecho",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"ISC",
-          "fieldName":"isc",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"SERVICIO VALORACION",
-          "fieldName":"servicio",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"RENTA",
-          "fieldName":"renta",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"IVA",
-          "fieldName":"iva",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"OTROS",
-          "fieldName":"otros",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"TOTAL",
-          "fieldName":"total",
-          "show":true,
-          "type":"number"
-       },
-       {
-          "disableSorting":false,
-          "display":"DOCUMENTOS",
-          "fieldName":"documentos",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"CERTIFICADO",
-          "fieldName":"certificado",
-          "show":true,
-          "type":"string"
-       },
-       {
-          "disableSorting":false,
-          "display":"CONOCIMIENTO",
-          "fieldName":"conocimiento",
-          "show":true,
-          "type":"string"
-       }
+    "entity": [
+        {
+            "disableSorting": false,
+            "display": "DESPACHO CIFRADO",
+            "fieldName": "despachoCifrado",
+            "filterType": "tag",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "OPERACION",
+            "fieldName": "operacion",
+            "filterType": "multi-select",
+            "other": {
+                "optionsObject": [
+                    {
+                        "text": "IMPORTACION",
+                        "value": "IMPORTACION"
+                    },
+                    {
+                        "text": "EXPORTACION",
+                        "value": "EXPORTACION"
+                    }
+                ],
+                "selectionMode": "multiple",
+                "source": "internal"
+            },
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "DESTINACION",
+            "fieldName": "codRegimen",
+            "filterType": "tag",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "REGIMEN",
+            "fieldName": "regimen",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "OFICIALIZACION",
+            "fieldName": "oficializacion",
+            "show": true,
+            "type": "date"
+        },
+        {
+            "disableSorting": false,
+            "display": "CANCELACION",
+            "fieldName": "cancelacion",
+            "show": true,
+            "type": "date"
+        },
+        {
+            "disableSorting": false,
+            "display": "AÑO",
+            "fieldName": "anio",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "MES",
+            "fieldName": "mes",
+            "filterType": "multi-select",
+            "other": {
+                "optionsObject": [
+                    {
+                        "text": "ENERO",
+                        "value": "ENERO"
+                    },
+                    {
+                        "text": "FEBRERO",
+                        "value": "FEBRERO"
+                    },
+                    {
+                        "text": "MARZO",
+                        "value": "MARZO"
+                    },
+                    {
+                        "text": "ABRIL",
+                        "value": "ABRIL"
+                    },
+                    {
+                        "text": "MAYO",
+                        "value": "MAYO"
+                    },
+                    {
+                        "text": "JUNIO",
+                        "value": "JUNIO"
+                    },
+                    {
+                        "text": "JULIO",
+                        "value": "JULIO"
+                    },
+                    {
+                        "text": "AGOSTO",
+                        "value": "AGOSTO"
+                    },
+                    {
+                        "text": "SEPTIEMBRE",
+                        "value": "SEPTIEMBRE"
+                    },
+                    {
+                        "text": "OCTUBRE",
+                        "value": "OCTUBRE"
+                    },
+                    {
+                        "text": "NOVIEMBRE",
+                        "value": "NOVIEMBRE"
+                    },
+                    {
+                        "text": "DICIEMBRE",
+                        "value": "DICIEMBRE"
+                    }
+                ],
+                "selectionMode": "multiple",
+                "source": "internal"
+            },
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "ADUANA",
+            "fieldName": "aduanaDespacho",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "ESTADO",
+            "fieldName": "estadoDespacho",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "RUC DESPACHANTE",
+            "fieldName": "rucDespachante",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "DESPACHANTE",
+            "fieldName": "despachante",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "DATOS DESPACHANTE",
+            "fieldName": "datosDespachante",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "EMAIL DESPACHANTE",
+            "fieldName": "emailDespachante",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "RUC IMPORTADOR",
+            "fieldName": "rucImportador",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "IMPORTADOR",
+            "fieldName": "importador",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "EMAIL IMPORTADOR",
+            "fieldName": "emailImportador",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "COTIZACION",
+            "fieldName": "cotizacion",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "MEDIO TRANSPORTE",
+            "fieldName": "medioTransporte",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "CANAL",
+            "fieldName": "canal",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "ITEM",
+            "fieldName": "itemExterno",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "PAIS ORIGEN",
+            "fieldName": "paisOrigenAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "PAIS PROCEDENCIA / DESTINO",
+            "fieldName": "paisProcDestinoAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "USO",
+            "fieldName": "usoAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "UNIDAD MEDIDA ESTADISTICA",
+            "fieldName": "unidadEstadisticaAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "CANTIDAD ESTADISTICA",
+            "fieldName": "cantidadEstadisticaAjustado",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "PESO NETO",
+            "fieldName": "pesoNeto",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "PESO BRUTO",
+            "fieldName": "pesoBruto",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "FOB DOLAR",
+            "fieldName": "fobDolarAjustado",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "FLETE DOLAR",
+            "fieldName": "fleteDolarAjustado",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "SEGURO DOLAR",
+            "fieldName": "seguroDolarAjustado",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "IMPONIBLE GUARANIES",
+            "fieldName": "imponibleGsAjustado",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "AJUSTE A INCLUIR",
+            "fieldName": "ajusteIncluirAjustado",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "AJUSTE A DEDUCIR",
+            "fieldName": "ajusteDeducirAjustado",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "RUBRO",
+            "fieldName": "desrubroAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "CAPITULO",
+            "fieldName": "descapituloAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "DESCRIPCION PARTIDA",
+            "fieldName": "despartidaAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "POSICION",
+            "fieldName": "posicionAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "DESCRIPCION POSICION",
+            "fieldName": "descripcionAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "MERCADERIA",
+            "fieldName": "mercaderia",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "ACUERDO",
+            "fieldName": "acuerdoAjustado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "DERECHO ADUANERO",
+            "fieldName": "derecho",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "ISC",
+            "fieldName": "isc",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "SERVICIO VALORACION",
+            "fieldName": "servicio",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "RENTA",
+            "fieldName": "renta",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "IVA",
+            "fieldName": "iva",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "OTROS",
+            "fieldName": "otros",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "TOTAL",
+            "fieldName": "total",
+            "show": true,
+            "type": "number"
+        },
+        {
+            "disableSorting": false,
+            "display": "DOCUMENTOS",
+            "fieldName": "documentos",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "CERTIFICADO",
+            "fieldName": "certificado",
+            "show": true,
+            "type": "string"
+        },
+        {
+            "disableSorting": false,
+            "display": "CONOCIMIENTO",
+            "fieldName": "conocimiento",
+            "show": true,
+            "type": "string"
+        }
     ]
- }
+}
