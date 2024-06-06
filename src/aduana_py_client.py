@@ -102,6 +102,8 @@ class AduanaPYClient:
         Returns:
             list[dict]: A list of dictionaries containing the fetched data.
         """
+        print(f"Fetching posicion {posicion} for year {anio}...")
+
         result = []
         fetched = 0
 

@@ -21,8 +21,6 @@ def main():
     for result in results:
         flat_results.extend(result.get())
 
-    print(len(results))
-
 
 if __name__ == "__main__":
     main()
